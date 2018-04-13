@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8828340b6a5e7b04794e0fb7aab5ab76, type: 3}
+  m_Name: alphaWood
+  m_EditorClassIdentifier: 
+  options:
+  - name: hi
+    text: hi
+    notes: 
+    default_next_line: wood
+    journal_options:
+    - Next_Line_Name: thanks
+      quest: 2
+      quest_index: 2
+      unique: 1
+      done: 0
+    assign_quests: 
+    finish_quests: 
+    give_items: 
+  - name: '?'
+    text: You got that wood man?
+    notes: 
+    default_next_line: bye
+    journal_options:
+    - Next_Line_Name: thanks
+      quest: 2
+      quest_index: 2
+      unique: 1
+      done: 0
+    assign_quests: 
+    finish_quests: 
+    give_items: 
+  - name: bye
+    text: Bye
+    notes: 
+    default_next_line: nope
+    journal_options: []
+    assign_quests: 
+    finish_quests: 
+    give_items: 
+  - name: thanks
+    text: thanks for the wood man.
+    notes: 
+    default_next_line: nope
+    journal_options: []
+    assign_quests: 
+    finish_quests: 00000000
+    give_items: 
+  - name: wood
+    text: I need wood man.
+    notes: 
+    default_next_line: bye
+    journal_options: []
+    assign_quests: 00000000
+    finish_quests: 
+    give_items: 

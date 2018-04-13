@@ -51,22 +51,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\alwaysVisible.cs" />
-     <Compile Include="Assets\camera_script.cs" />
-     <Compile Include="Assets\clickToMove.cs" />
-     <Compile Include="Assets\Dialogue.cs" />
-     <Compile Include="Assets\DialogueAsset.cs" />
-     <Compile Include="Assets\dialogueM.cs" />
-     <Compile Include="Assets\fade.cs" />
-     <Compile Include="Assets\interactable.cs" />
-     <Compile Include="Assets\isoPlacement.cs" />
-     <Compile Include="Assets\Quest_Table.cs" />
-     <Compile Include="Assets\questM.cs" />
-     <Compile Include="Assets\schedule.cs" />
-     <Compile Include="Assets\ScriptableObjectUtility.cs" />
-     <Compile Include="Assets\SerializableDictionary.cs" />
-     <Compile Include="Assets\talkable.cs" />
-     <Compile Include="Assets\twodorient.cs" />
+     <Compile Include="Assets\cutable.cs" />
+     <Compile Include="Assets\Scripts\alwaysVisible.cs" />
+     <Compile Include="Assets\Scripts\camera_script.cs" />
+     <Compile Include="Assets\Scripts\clickToMove.cs" />
+     <Compile Include="Assets\Scripts\Dialogue.cs" />
+     <Compile Include="Assets\Scripts\DialogueAsset.cs" />
+     <Compile Include="Assets\Scripts\dialogueM.cs" />
+     <Compile Include="Assets\Scripts\fade.cs" />
+     <Compile Include="Assets\Scripts\interactable.cs" />
+     <Compile Include="Assets\Scripts\isoPlacement.cs" />
+     <Compile Include="Assets\Scripts\Quest_Table.cs" />
+     <Compile Include="Assets\Scripts\questM.cs" />
+     <Compile Include="Assets\Scripts\schedule.cs" />
+     <Compile Include="Assets\Scripts\ScriptableObjectUtility.cs" />
+     <Compile Include="Assets\Scripts\SerializableDictionary.cs" />
+     <Compile Include="Assets\Scripts\talkable.cs" />
+     <Compile Include="Assets\Scripts\twodorient.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/newUnity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
